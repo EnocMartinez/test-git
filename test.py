@@ -19,3 +19,8 @@ if __name__ == "__main__":
     # argparser.add_argument("-f", "--file", help="Another argument", type=str, required=False, default="")
     args = argparser.parse_args()
     rich.print("[green]Hello world!")
+    animals = ["cat", "dog", "rabbit"]
+    for animal in animals:
+        rich.print(f"[cyan] animal: {animal}")
+
+
